@@ -1,0 +1,133 @@
+/**
+    --seaweedgreen: #354A21
+    --eerieblack: #1B2021
+    --cambridgeblue: #8AA39B
+    --frenchgray: #CED3DC
+**/
+
+
+body {
+    background-color: #CED3DC;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1B2021
+}
+
+nav {
+    background-color: #8AA39B;
+    font-family:'Courier New', Courier, monospace;
+}
+
+nav > ul {
+    font-size: 20px;
+    line-height: 150%;
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+}
+
+nav > ul > li {
+
+}
+
+nav > ul > li > a, a:visited {
+    color: #1B2021;
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+#heading {
+    color: #1B2021;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 150%;
+    letter-spacing: 5px;
+}
+
+.description {
+
+}
+
+.description > ul {
+
+}
+
+.description > ul > li > a, a:visited {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 20px;
+    color:#1B2021
+}
+
+.description > ul > li > a:hover {
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 20px;
+    color: #FFFFFF
+}
+
+
+
+h1 {
+
+    color: #1B2021;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+
+h2 {
+
+    color: #354A21;
+    font-size: 25px;
+    line-height: 150%;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+
+}
+
+h3 {
+
+    color: #1B2021;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 5px;
+    text-transform: lowercase;
+
+}
+
+strong {
+
+    color:#1B2021;
+    background-color: #8AA39B;
+    font-size: 20px;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-family:'Courier New', Courier, monospace
+
+}
+
+i {
+    color:#1B2021;
+    background-color: #8AA39B;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Courier New', Courier, monospace
+
+}
+
+/* begin cursor info! */
+
+* {cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat996.cur), auto !important;} 
+
+/* code & .cur file sourced from https://www.cursors-4u.com on 3.28.2025 :) 
+I also used this tutorial from tumblr (ofc it's from tumblr): 
+https://www.tumblr.com/phantasyreign/626591573843607552/tutorial-how-to-add-cursor-into-your-blog
+*/
+
+/* end cursor info! */
