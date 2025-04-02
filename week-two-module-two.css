@@ -22,6 +22,7 @@ nav > ul {
     line-height: 150%;
     font-family: 'Courier New', Courier, monospace;
     font-variant: small-caps;
+    list-style-type: none;
 }
 
 nav > ul > li {
@@ -52,7 +53,8 @@ nav > ul > li > a:hover {
 }
 
 .description > ul {
-
+    list-style-type: lower-roman;
+    font-size: 12px
 }
 
 .description > ul > li > a, a:visited {
