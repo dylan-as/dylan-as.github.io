@@ -5,29 +5,20 @@
     --frenchgray: #CED3DC
 **/
 
-
-body {
-    position: relative;
-    margin: 15px;
-    margin-left: 15px;
-    padding: 0px;
-    display: grid;
-    grid-template-columns: 256px auto;
-    background-color: #CED3DC;
-    font-family: 'Courier New', Courier, monospace;
-    color: #1B2021
-}
+/* navigation & sidebar */
 
 nav {
     position: sticky;
     background-color: #8AA39B;
     font-family:'Courier New', Courier, monospace;
-    
 }
 
 nav > ul {
-    font-size: 20px;
-    text-align: justify;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 5px;
+    text-align: center;
     line-height: 150%;
     font-family: 'Courier New', Courier, monospace;
     font-variant: small-caps;
@@ -42,6 +33,25 @@ nav > ul > li > a, a:visited {
 nav > ul > li > a:hover {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+/* body content & styling */
+
+body {
+    position: relative;
+    margin: 15px;
+    margin-left: 15px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 256px auto;
+    background-color: #CED3DC;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1B2021
+}
+
+.container-content {
+    padding: 12px;
+    margin: 30px;
 }
 
 /* headings */
