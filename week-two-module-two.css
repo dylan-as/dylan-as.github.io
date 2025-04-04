@@ -8,14 +8,19 @@
 /* navigation & sidebar */
 
 nav {
-    position: sticky;
+    position: fixed;
     background-color: #8AA39B;
     font-family:'Courier New', Courier, monospace;
+    width: 250px;
+    height: 50vh;
 }
+
+
 
 nav > ul {
     font-size: 30px;
     margin: 0px;
+    margin-top: 100px;
     padding: 0px;
     letter-spacing: 5px;
     text-align: center;
@@ -56,9 +61,10 @@ body {
 }
 
 .container-content {
-    position: sticky;
+    position: relative;
     padding: 12px;
     margin: 30px;
+
 }
 
 .about-container{
