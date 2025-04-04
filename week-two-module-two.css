@@ -54,10 +54,26 @@ body {
     margin: 30px;
 }
 
+.about-container{
+    padding: 15px;
+    margin: 30px;
+    background-color: antiquewhite;
+}
+
+.text-container{
+    padding: 15px;
+    padding-top: 5px;
+    margin: 30px;
+    background-color: antiquewhite;
+}
+
 /* headings */
 
 #heading {
     color: #1B2021;
+    margin: 60px;
+    text-align: center;
+    margin-top: 10px;
     font-size: 80px;
     font-weight: 600;
     line-height: 150%;
