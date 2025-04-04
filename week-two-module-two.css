@@ -35,6 +35,11 @@ nav > ul > li > a:hover {
     text-decoration: none;
 }
 
+.nav-content{
+    position:sticky;
+    scroll-behavior: smooth;
+}
+
 /* body content & styling */
 
 body {
@@ -51,6 +56,7 @@ body {
 }
 
 .container-content {
+    position: sticky;
     padding: 12px;
     margin: 30px;
 }
