@@ -39,6 +39,7 @@ nav > ul > li > a:hover {
 
 body {
     position: relative;
+    line-height: 1.5;
     margin: 15px;
     margin-left: 15px;
     padding: 0px;
