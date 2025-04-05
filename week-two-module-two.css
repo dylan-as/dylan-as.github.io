@@ -82,6 +82,16 @@ body {
 
 /* headings */
 
+.head-container {
+    position: sticky;
+    top: 0;
+    z-index: 1030;
+    padding: 15px;
+    margin:30px;
+    background-color: antiquewhite;
+
+}
+
 #heading {
     color: #1B2021;
     margin: 60px;
