@@ -61,7 +61,6 @@ body {
 }
 
 .container-content {
-    display: inline-flex;
     position: relative;
     padding: 12px;
     margin: 30px;
