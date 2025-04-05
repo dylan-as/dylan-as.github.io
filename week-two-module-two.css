@@ -61,6 +61,7 @@ body {
 }
 
 .container-content {
+    display: inline-flex;
     position: relative;
     padding: 12px;
     margin: 30px;
@@ -76,7 +77,7 @@ body {
 .text-container{
     padding: 15px;
     padding-top: 5px;
-    margin: 30px;
+    margin: 15px;
     background-color: antiquewhite;
 }
 
