@@ -87,6 +87,8 @@ body {
     background-color: antiquewhite;
 }
 
+/* buttons & button styling */
+
 .button {
     background-color: #8AA39B;
     border: none;
@@ -203,7 +205,13 @@ i {
 
 
 
-/* button styling */
+/* responsivity */
+
+@media screen and (max-width: 900px) {
+    div.head-container {
+      display: none;
+    }
+  }
 
 
 /* begin cursor info! */
