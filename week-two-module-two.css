@@ -174,8 +174,20 @@ i {
     font-family: 'Courier New', Courier, monospace
 }
 
+
+
 /* button styling */
 
+.button {
+    background-color: #8AA39B;
+    border: none;
+    color: #1B2021;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
 
 
 /* begin cursor info! */
