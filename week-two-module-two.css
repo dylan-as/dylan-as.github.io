@@ -93,6 +93,20 @@ body {
     color:#FFFFFF;
     border-radius: 12px;
     padding: 12px 28px;
+    display:inline-flex;
+}
+
+.button1 {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.button2 {
+    margin-right: 100px;
+}
+
+.button3 {
+    margin-right: 100px;
 }
 
 .button:hover {
