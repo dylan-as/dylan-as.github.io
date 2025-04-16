@@ -57,6 +57,13 @@ nav > ul > li > a:hover {
     border-radius: 25%;
     display: block; 
     z-index: 10;
+    transition: width 2s, height 2s;
+    
+}
+
+#menu:hover {
+    width: 50px;
+    height: 50px;
 }
 
 #menu > span {
@@ -64,6 +71,7 @@ nav > ul > li > a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 /* body content & styling */
@@ -224,6 +232,11 @@ i {
       display: none;
     }
   }
+
+
+
+
+
 
 
 /* begin cursor info! */
