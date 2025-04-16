@@ -74,6 +74,10 @@ nav > ul > li > a:hover {
     
 }
 
+.toggleButton {
+    background-color: #D3D3D3;
+}
+
 /* body content & styling */
 
 body {
