@@ -14,9 +14,10 @@
 
     <!--NAVIGATION BEGIN-->
     <div class="nav-content">
+
     <nav class="navStyle">
     
-            <div id="menu"><span class="material-symbols-outlined"> sentiment_very_dissatisfied
+            <div id="menu"><span class="material-symbols-outlined" onClick="hideBar(document.getElementsByClassName('navStyle')[0])"> sentiment_very_dissatisfied
                 </span>
             </div>
     
@@ -124,25 +125,8 @@
 
     <!--SCRIPT BEGIN-->
 
-    <script>
-        let isNavVisible = false;
 
-        const container = document.getElementById('navStyle');
-        const toggleButton = document.getElementById('toggleButton');
-
-        function toggleNavVisibility() {
-            isNavVisible = !isNavVisible;
-            container.style.display = isNavVisible ? 'block' : 'none';
-        }
-
-        toggleButton.addEventListener('click', toggleNavVisibility);
-        container.style.display = isNavVisible ? 'block' : none;
-    </script>
-
-
-
-
-
+    <!--SCRIPT END-->
 
     </body>
     
