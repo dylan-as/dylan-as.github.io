@@ -230,16 +230,64 @@ i {
 
 /* responsivity */
 
-@media screen and (max-width: 900px) {
-    div.head-container {
-      display: none;
-    }
+@media screen and (max-width: 800px) {
+
+        * {
+            font-size: 20px;
+            overflow: visible;
+        }
+
+div.head-container {
+display: none;
+}
+
+body {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 100vw;
+
+}
+  
+
+nav {
+    position: fixed;
+    top: 0px; 
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    height: 100vw;
   }
 
+nav > #menu {
+    display: none;
+}
+
+nav > #menu > span {
+    display: none;
+}
+
+.container-content {
+    position: relative;
+    top: 12vh;
+    left: 0px;
+    padding: 20px;
+    margin: 0px;
+    width: 60%;
+}
+
+nav > ul {
+margin: 0 auto; 
+gap: 20px; 
+padding: 0px; 
+font-size: 3rem;
 
 
+}
 
-
+}
 
 
 /* begin cursor info! */
