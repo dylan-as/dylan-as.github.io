@@ -128,9 +128,8 @@
 
 <script>
 
-    let isOpen; 
+   var isOpen = navStyle.style.display = "block"
 
-    isOpen = navStyle.style.display = "fixed"
     //says that default display style for navStyle element is visible block
 
 
@@ -140,22 +139,21 @@
         //hide nav block
         //show menu icon (#menu)
 
-        if  (isOpen === true) 
+        if  (isOpen = true) 
         
         { navStyle.style.display = "none"
-        menu.style.display = "fixed"
 
         }
 
-        else {
+        //else {
             //if nav is NOT visible/display = none 
-            navStyle.style.display = "fixed";
-            menu.style.display = "fixed";
+            //navStyle.style.display = "block";
+    
             //show nav menu in block format 
             //show menu icon (#menu)
         }    
   
-        }
+        
 
        
 
