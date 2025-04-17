@@ -125,6 +125,43 @@
 
     <!--SCRIPT BEGIN-->
 
+<script>
+
+    let isOpen; 
+
+    isOpen = navStyle.style.display = "block"
+    //says that default display style for navStyle element is visible block
+
+
+    function hideBar () {
+
+        //if nav is visible/displayed in block 
+        //hide nav block
+        //show menu icon (#menu)
+
+        if  (isOpen === true) 
+        
+        { navStyle.style.display = "none"
+        menu.style.display = "fixed"
+
+        }
+
+        else {
+            //if nav is NOT visible/display = none 
+            navStyle.style.display = "block";
+            menu.style.display = "fixed";
+            //show nav menu in block format 
+            //show menu icon (#menu)
+        }
+
+            
+  
+        }
+
+       
+
+
+</script>
 
     <!--SCRIPT END-->
 
