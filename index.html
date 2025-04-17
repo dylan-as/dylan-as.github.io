@@ -15,13 +15,12 @@
     <!--NAVIGATION BEGIN-->
     <div class="nav-content">
 
+        <div id="menu"><span class="material-symbols-outlined" onClick="hideBar(document.getElementsByClassName('navStyle')[0])"> 
+            sentiment_very_dissatisfied
+            </span>
+        </div>
+
     <nav class="navStyle">
-    
-            <div id="menu"><span class="material-symbols-outlined" onClick="hideBar(document.getElementsByClassName('navStyle')[0])"> 
-                sentiment_very_dissatisfied
-                </span>
-            </div>
-    
     
         <ul>
             <li><a href="#circa">CIRCA</a></li>
@@ -128,17 +127,20 @@
 
 <script>
 
-    
+    let isOpen = document.getElementsByClassName("navStyle");
+    let menuIcon = document.getElementById("menu");
 
     function hideBar () {
 
-        var isOpen = document.getElementsByClassName('navStyle');
-
-        if (isOpen.style.display === 'none') {
-            isOpen.style.display = 'block';
+        if (isOpen[0].style.display === "none") 
+        
+        {
+            isOpen[0].style.display = "block";
         } 
+
         else {
-            isOpen.style.display = 'none';
+
+            isOpen[0].style.display = "none";
         }
         
         }    

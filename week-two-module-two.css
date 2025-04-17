@@ -55,6 +55,8 @@ nav > ul > li > a:hover {
     height: 40px;
     width: 40px;
     border-radius: 25%;
+    border-color: #1B2021;
+    border-width: 3px;
     display: block; 
     z-index: 10;
     transition: width 2s, height 2s;
