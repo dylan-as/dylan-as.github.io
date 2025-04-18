@@ -7,7 +7,7 @@
 
 /* responsivity */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     * {
             font-size: 20px;
             overflow: visible;
@@ -17,7 +17,15 @@
             display: none;
         }
 
-         div.nav > #menu {
+        div.navStyle {
+            position: fixed;
+            width: 100vw;
+            z-index: 1
+        }
+
+    }
+
+        /** div.nav > #menu {
             display: none;
         }
     
@@ -25,7 +33,7 @@
             display: none;
         }
 
-    }
+
     
        /** body {
             position: relative;
