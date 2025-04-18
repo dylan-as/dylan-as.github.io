@@ -1,0 +1,68 @@
+/**
+    --seaweedgreen: #354A21
+    --eerieblack: #1B2021
+    --cambridgeblue: #8AA39B
+    --frenchgray: #CED3DC
+**/
+
+/* responsivity */
+
+/**@media screen and (max-width: 600px) {
+    * {
+            font-size: 20px;
+            overflow: visible;
+        }
+    
+        div.head-container {
+            display: none;
+        }
+    
+        body {
+            position: relative;
+            top: 0px;
+            left: 0px;
+            margin: 0px;
+            padding: 0px;
+            height: 100vw;
+    
+        }
+    
+    
+        nav {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            margin: 0px;
+            padding: 0px;
+            height: 100vw;
+        }
+    
+        div.nav > #menu {
+            display: none;
+        }
+    
+        nav > #menu > span {
+            display: none;
+        }
+    
+        .container-content {
+            position: relative;
+            top: 12vh;
+            left: 0px;
+            padding: 20px;
+            margin: 0px;
+            width: 60%;
+        }
+    
+        nav>ul {
+            margin: 0 auto;
+            gap: 20px;
+            padding: 0px;
+            font-size: 3rem;
+    
+    
+        }
+    
+    }
+    
+    
