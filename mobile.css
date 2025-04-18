@@ -7,7 +7,7 @@
 
 /* responsivity */
 
-/**@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     * {
             font-size: 20px;
             overflow: visible;
@@ -16,8 +16,18 @@
         div.head-container {
             display: none;
         }
+
+         div.nav > #menu {
+            display: none;
+        }
     
-        body {
+        nav > #menu > span {
+            display: none;
+        }
+
+    }
+    
+       /** body {
             position: relative;
             top: 0px;
             left: 0px;
@@ -37,13 +47,7 @@
             height: 100vw;
         }
     
-        div.nav > #menu {
-            display: none;
-        }
-    
-        nav > #menu > span {
-            display: none;
-        }
+       
     
         .container-content {
             position: relative;
@@ -64,5 +68,4 @@
         }
     
     }
-    
-    
+    }
