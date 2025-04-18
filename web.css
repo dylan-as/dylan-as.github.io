@@ -12,7 +12,7 @@ nav {
     background-color: #8AA39B;
     font-family:'Courier New', Courier, monospace;
     width: 250px;
-    height: 50vh;
+    height: 100vh;
 }
 
 
@@ -41,8 +41,7 @@ nav > ul > li > a:hover {
 }
 
 .nav-content{
-    position:sticky;
-    scroll-behavior: smooth;
+    position: relative;
 }
 
 /* nav icon */
@@ -94,7 +93,9 @@ body {
 .container-content {
     position: relative;
     padding: 12px;
-    margin: 30px;
+    margin: 0px;
+    width: 65vw;
+
 
 }
 
@@ -144,7 +145,6 @@ body {
 
 .head-container {
     position: sticky;
-    top: 0;
     z-index: 1030;
     padding: 15px;
     margin:30px;
