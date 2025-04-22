@@ -17,7 +17,7 @@
 
     <!--NAVIGATION BEGIN-->
 
-        <div id="menu"><span class="material-symbols-outlined" onClick="hideBar(document.getElementsByClassName('navStyle')[0])"> 
+        <div id="menu"><span class="material-symbols-outlined" onClick="hideBar(document.getElementsByClassName('navStyle')[0])" onClick="expandContent(document.getElementsByClassName('container-content')[0])"> 
             sentiment_very_dissatisfied
             </span>
         </div>
@@ -147,11 +147,25 @@
         else {
 
             isOpen[0].style.display = "none";
-            bodyContent[0].style.display = "block"
         }
         
-        }    
-  
+        }   
+        
+    function expandContent () {
+        
+        if (bodyContent[0].style.position === "fixed")
+
+        {
+            bodyContent[0].style.position = "flex";
+        }
+
+        else {
+
+            bodyContent[0].style.position = "fixed";
+        }
+    }
+
+        
 
 
 </script>
