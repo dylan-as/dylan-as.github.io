@@ -16,7 +16,6 @@
 
 
     <!--NAVIGATION BEGIN-->
-    <div class="nav-content">
 
         <div id="menu"><span class="material-symbols-outlined" onClick="hideBar(document.getElementsByClassName('navStyle')[0])"> 
             sentiment_very_dissatisfied
@@ -32,7 +31,6 @@
             <li><a href="https://x-magicspells-x.tumblr.com/" target="_blank">PERVENIERE</a></li>
         </ul>
     </nav>
-    </div>
     
     
     <!--NAVIGATION END-->
@@ -136,7 +134,7 @@
 <script>
 
     let isOpen = document.getElementsByClassName("navStyle");
-    let menuIcon = document.getElementById("menu");
+    let bodyContent = document.getElementsByClassName("container-content");
 
     function hideBar () {
 
@@ -149,6 +147,7 @@
         else {
 
             isOpen[0].style.display = "none";
+            bodyContent[0].style.display = "block"
         }
         
         }    
