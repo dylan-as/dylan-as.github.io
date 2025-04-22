@@ -17,7 +17,7 @@
 
     <!--NAVIGATION BEGIN-->
 
-        <div id="menu"><span class="material-symbols-outlined" onClick="hideBar(document.getElementsByClassName('navStyle')[0])" onClick="expandContent(document.getElementsByClassName('container-content')[0])"> 
+        <div id="menu"><span class="material-symbols-outlined" onClick="hideBar(document.getElementsByClassName('navStyle')[0])" onClick="expandContent(document.getElementById('container-content'))"> 
             sentiment_very_dissatisfied
             </span>
         </div>
@@ -134,7 +134,7 @@
 <script>
 
     let isOpen = document.getElementsByClassName("navStyle");
-    let bodyContent = document.getElementsByClassName("container-content");
+    let bodyContent = document.getElementById("container-content");
 
     function hideBar () {
 
@@ -153,15 +153,15 @@
         
     function expandContent () {
         
-        if (bodyContent[0].style.position === "fixed")
+        if (bodyContent.style.position === "fixed")
 
         {
-            bodyContent[0].style.position = "flex";
+            bodyContent.style.position = "flex";
         }
 
         else {
 
-            bodyContent[0].style.position = "fixed";
+            bodyContent.style.position = "fixed";
         }
     }
 
