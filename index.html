@@ -17,7 +17,7 @@
 
     <!--NAVIGATION BEGIN-->
 
-        <div id="menu"><span class="material-symbols-outlined" onClick="hideBar(document.getElementsByClassName('navStyle')[0])" onClick="expandContent(document.getElementById('container-content'))"> 
+        <div id="menu"><span class="material-symbols-outlined" onClick="hideBar()"> 
             sentiment_very_dissatisfied
             </span>
         </div>
@@ -133,37 +133,27 @@
 
 <script>
 
-    let isOpen = document.getElementsByClassName("navStyle");
-    let bodyContent = document.getElementById("container-content");
+    let isOpen = document.getElementsByClassName("navStyle")[0];
+    let bodyContent = document.getElementsByClassName("container-content")[0];
+    let toggler = true;
 
     function hideBar () {
-
-        if (isOpen[0].style.display === "none") 
-        
-        {
-            isOpen[0].style.display = "block";
-        } 
-
-        else {
-
-            isOpen[0].style.display = "none";
-        }
-        
-        }   
-        
-    function expandContent () {
-        
-        if (bodyContent.style.position === "fixed")
-
-        {
-            bodyContent.style.position = "flex";
+        console.log(isOpen);
+        console.log(bodyContent);
+        if (toggler) {
+            isOpen.style.display = "none"
+            bodyContent.style.display = "inline-flex"
         }
 
         else {
-
-            bodyContent.style.position = "fixed";
+            isOpen.style.display = "block"
+            bodyContent.style.display = "block"
         }
-    }
+
+        toggler = !toggler; 
+
+    }   
+
 
         
 
