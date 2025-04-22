@@ -142,21 +142,17 @@
         console.log(bodyContent);
         if (toggler) {
             isOpen.style.display = "none"
-            bodyContent.style.display = "inline-flex"
+            bodyContent.style.position = "inline-grid"
         }
 
         else {
             isOpen.style.display = "block"
-            bodyContent.style.display = "block"
+            bodyContent.style.position = "block"
         }
 
         toggler = !toggler; 
 
     }   
-
-
-        
-
 
 </script>
 
