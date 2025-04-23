@@ -6,75 +6,65 @@
 **/
 
 /* responsivity */
-/* 
-@media screen and (max-width: 800px) {
-    * {
-            font-size: 20px;
-            overflow: visible;
-        }
-    
-        div.head-container {
-            display: none;
-        }
 
-        div.navStyle {
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            height: 40px;
-            width: 100vw;
-            z-index: 1
-        }
+@media only screen and (max-width: 627px) {
+* {
+    font-size: 2rem;
+    overflow: visible; 
+}
+    
+    /** nav styling **/
 
-    } */
+    nav {
+        position: fixed;
+        width: 100vw;
+        z-index: 10;
+        top: 0;
+    }
 
-        /** div.nav > #menu {
-            display: none;
-        }
-    
-        nav > #menu > span {
-            display: none;
-        }
+    nav > ul {
+        font-size: 2.0rem;
+        letter-spacing: 1.0vw;
+        line-height: 10vh;
+    }
 
+    nav > ul > li > a:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+    }
 
+    nav > ul > li > a, a:visited {
+        color: #1B2021;
+        text-decoration: none;
+    }
     
-       /** body {
-            position: relative;
-            top: 0px;
-            left: 0px;
-            margin: 0px;
-            padding: 0px;
-            height: 100vw;
-    
-        }
-    
-    
-        nav {
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            margin: 0px;
-            padding: 0px;
-            height: 100vw;
-        }
-    
-       
-    
-        .container-content {
-            position: relative;
-            top: 12vh;
-            left: 0px;
-            padding: 20px;
-            margin: 0px;
-            width: 60%;
-        }
-    
-        nav>ul {
-            margin: 0 auto;
-            gap: 20px;
-            padding: 0px;
-            font-size: 3rem;
-    
-    
-        }
-    
+     /** menu icon styling **/
+
+    #menu {
+        position: fixed;
+        z-index: 11;
+        transition: none;
+
+    }
+
+    #menu > span {
+        position: relative;
+        
+    }
+
+    .head-container {
+        display: none;
+    }
+
+    .container-content {
+        position: relative; 
+        left: 0;
+        width: 100vw;
+        font-size: .5rem;
+    }
+
+    .description {
+        font-size: .05rem;
+    }
+}
+

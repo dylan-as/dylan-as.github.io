@@ -18,7 +18,7 @@ nav {
 
 nav > ul {
     margin: 0vw;
-    margin-top: 10vh;
+    margin-top: 12vh;
     padding: 0vw;
     letter-spacing: .125rem;
     text-align: center;
@@ -46,7 +46,7 @@ nav > ul > li > a:hover {
     left: calc(15vw/2.5);
     background-color: #D3D3D3;
     height: 6vh;
-    width: 4vw;
+    width: 3vw;
     border-radius: 25%;
     display: block; 
     z-index: 10;
