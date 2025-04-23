@@ -60,11 +60,9 @@
         position: relative; 
         left: 0;
         width: 100vw;
-        font-size: .5rem;
-    }
-
-    .description {
         font-size: .05rem;
     }
+
+
 }
 
