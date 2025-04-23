@@ -9,7 +9,6 @@
 
 @media only screen and (max-width: 600px) {
 * {
-    font-size: 2rem;
     overflow: visible; 
 }
     
@@ -18,8 +17,9 @@
     nav {
         position: fixed;
         width: 100vw;
-        z-index: 10;
+        z-index: 1;
         top: 0;
+        left: 0px;
     }
 
     nav > ul {
@@ -28,29 +28,37 @@
         line-height: 10vh;
     }
 
-    nav > ul > li > a:hover {
-        color: #FFFFFF;
+    nav > ul > li > a, a:visited {
+        color: #1B2021;
         text-decoration: none;
     }
 
-    nav > ul > li > a, a:visited {
-        color: #1B2021;
+    nav > ul > li > a:hover {
+        color: #FFFFFF;
         text-decoration: none;
     }
     
      /** menu icon styling **/
 
     #menu {
-        position: fixed;
-        z-index: 11;
-        transition: none;
-
+        position: absolute;
+        left: 0px;
+        top:0px;
+        margin: 0px;
+        display: block;
+        width: 60px;
+        height: 50px;
     }
 
     #menu > span {
         position: relative;
-        
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+
     }
+
 
     .head-container {
         display: none;
@@ -60,7 +68,10 @@
         position: relative; 
         left: 0;
         width: 100vw;
-        font-size: .05rem;
+    }
+
+    body {
+        font-size: 1rem;
     }
 
 
