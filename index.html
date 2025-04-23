@@ -144,10 +144,11 @@
             isOpen.style.display = "none"
             bodyContent.style.position = "inline-grid"
         }
+        //need to change left value of content-container to 0vw to get it to move over when nav collapses 
 
         else {
             isOpen.style.display = "block"
-            bodyContent.style.position = "block"
+            bodyContent.style.position = "fixed"
         }
 
         toggler = !toggler; 
