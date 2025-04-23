@@ -148,7 +148,8 @@
         if (toggler) {
             navContent.style.display = "none"
             bodyContent.style.left = 0;
-            menuIcon.style.position = "absolute"
+            menuIcon.style.left = 0;
+            menuIcon.style.top = 0;
         }
         //need to change left value of content-container to 0vw to get it to move over when nav collapses 
 
@@ -156,6 +157,8 @@
             navContent.style.display = "block"
             bodyContent.style.left = "15vw";
             menuIcon.style.position = "fixed"
+            menuIcon.style.left = "calc(15vw/2.5)"
+            menuIcon.style.top = "calc(100vh/35)"
         }
 
         toggler = !toggler; 
