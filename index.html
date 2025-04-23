@@ -133,22 +133,29 @@
 
 <script>
 
-    let isOpen = document.getElementsByClassName("navStyle")[0];
-    let bodyContent = document.getElementsByClassName("container-content")[0];
     let toggler = true;
 
     function hideBar () {
-        console.log(isOpen);
+
+        let navContent = document.getElementsByClassName("navStyle")[0];
+        let bodyContent = document.getElementsByClassName("container-content")[0];
+        let menuIcon = document.getElementById("menu");
+
+        console.log(navContent);
         console.log(bodyContent);
+        console.log(menuIcon);
+
         if (toggler) {
-            isOpen.style.display = "none"
-            bodyContent.style.position = "inline-grid"
+            navContent.style.display = "none"
+            bodyContent.style.left = 0;
+            menuIcon.style.position = "absolute"
         }
         //need to change left value of content-container to 0vw to get it to move over when nav collapses 
 
         else {
-            isOpen.style.display = "block"
-            bodyContent.style.position = "fixed"
+            navContent.style.display = "block"
+            bodyContent.style.left = 100;
+            menuIcon.style.position = "fixed"
         }
 
         toggler = !toggler; 
